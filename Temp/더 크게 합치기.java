@@ -1,10 +1,10 @@
 class Solution {
     public int solution(int a, int b) {
-        int operator1 = Integer.parseInt("" + a + b);
-        int operator2 = Integer.parseInt("" + b + a);
-        if(operator1 >= operator2)
-            return operator1;
+        int ab = Integer.parseInt("" + a + b);
+        int ba = Integer.parseInt("" + b + a);
+        if(ab >= ba)
+            return ab;
         else
-            return operator2;
+            return ba;
     }
 }
