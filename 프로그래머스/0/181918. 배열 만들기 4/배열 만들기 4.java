@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     public int[] solution(int[] arr) {
-        ArrayList<Integer> stkList = new ArrayList<Integer>();
+        List<Integer> stkList = new ArrayList<Integer>();
         int i = 0;
-        while(i < arr.length){
+        while(i < arr.length) {
             if(stkList.size() == 0)
                 stkList.add(arr[i++]);
             else if(stkList.get(stkList.size() - 1) < arr[i])
