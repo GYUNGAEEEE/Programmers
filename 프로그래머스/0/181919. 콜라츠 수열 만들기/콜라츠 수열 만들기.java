@@ -1,9 +1,10 @@
 import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
     public int[] solution(int n) {
-        ArrayList<Integer> arr = new ArrayList<Integer>();
-        while(n != 1){
+        List<Integer> arr = new ArrayList<Integer>();
+        while(n != 1) {
             arr.add(n);
             if(n % 2 == 0)
                 n /= 2;
