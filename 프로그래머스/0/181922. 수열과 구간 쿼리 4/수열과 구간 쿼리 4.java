@@ -1,6 +1,6 @@
 class Solution {
     public int[] solution(int[] arr, int[][] queries) {
-        for(int qIdx = 0; qIdx < queries.length; qIdx++){
+        for(int qIdx = 0; qIdx < queries.length; qIdx++) {
             int s = queries[qIdx][0];
             int e = queries[qIdx][1];
             int k = queries[qIdx][2];
