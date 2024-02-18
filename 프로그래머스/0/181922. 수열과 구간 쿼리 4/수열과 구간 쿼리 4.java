@@ -5,7 +5,7 @@ class Solution {
             int e = queries[qIdx][1];
             int k = queries[qIdx][2];
             
-            for(int i = s; i <= e; i++){
+            for(int i = s; i <= e; i++) {
                 if(i % k == 0)
                     arr[i]++;
             }
